@@ -1,0 +1,14 @@
+{
+  "name": "plexio-uhf-bridge",
+  "version": "0.0.1",
+  "description": "Stream-only Stremio wrapper around a user-specific Plexio addon",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2"
+  }
+}
